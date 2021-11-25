@@ -11,4 +11,4 @@ microservice:
   currency-exchange:
     endpoints:
       endpoint:
-        uri: http://currency-exchange/exchange
+        uri: http://currency-exchange/exchange/{baseCode}
